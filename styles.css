@@ -21,7 +21,6 @@ body {
 }
 
 .key {
-  /* CSS variables */
   height: calc(var(--width) * 4);
   width: var(--width);
 }
@@ -37,5 +36,13 @@ body {
     background-color: black;
     margin-left: calc(var(--width) / -2);
     margin-right: calc(var(--width) / -2);
-    z-index: 2;
+    z-index: 50;
+}
+
+.white.active {
+    background-color: #ddd;
+}
+
+.black.active {
+    background-color: #555;
 }
